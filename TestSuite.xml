@@ -5,12 +5,10 @@
         <classes>
             <class name="TestClass.Main"/>
             <class name="TestClass.LoginCase"/>
-<!--            <class name="TestClass.UserSetting"></class>-->
-
         </classes>
     </test>
 
-    <test name="UserSetting">
+    <test name="test">
         <classes>
             <class name="TestClass.UserSetting"></class>
         </classes>

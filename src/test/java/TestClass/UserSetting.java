@@ -16,7 +16,6 @@ public class UserSetting {
 
     WebDriver driver;
     UserStore user;
-
     @BeforeTest
     public WebDriver initConstructor() {
         driver = Main.driver;
@@ -41,11 +40,12 @@ public class UserSetting {
     }
 
     @Test(priority = 2)
-    public void verifyCongratulationPage() {
+    public void verifyCongratulationPage() throws InterruptedException {
         String congratTitle = user.congratulationTitle.getText();
         congratTitle = congratTitle.replaceAll("check_circle", "");
         congratTitle = congratTitle.replaceAll("\\n", "");
         Assert.assertEquals(congratTitle, "Congratulations");
+        Thread.sleep(3000);
     }
 
 

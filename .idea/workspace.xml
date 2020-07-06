@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2128013-5417-4bd6-8b50-44a1bba0db42" name="Default Changelist" comment="" />
+    <list default="true" id="b2128013-5417-4bd6-8b50-44a1bba0db42" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestClass/UserSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClass/UserSetting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestClass/UserSetting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestClass/UserSetting.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +31,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1eIyGBqhbp0h72cOcCLRevrxtdB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +39,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunManager" selected="TestNG.C:/intellij/Java Project/TinyPulse/TestSuite.xml">
     <configuration name="C:/intellij/Java Project/TinyPulse/TestSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
@@ -84,52 +95,41 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="380" y="100" width="1334" height="840" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594042332290" />
-    <state width="1474" height="279" key="GridCell.Tab.0.bottom" timestamp="1594046252323">
+    <state width="1474" height="344" key="GridCell.Tab.0.bottom" timestamp="1594050470884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1474" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594046252323" />
-    <state width="1474" height="279" key="GridCell.Tab.0.center" timestamp="1594046252323">
+    <state width="1474" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594050470884" />
+    <state width="1474" height="344" key="GridCell.Tab.0.center" timestamp="1594050470884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1474" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594046252323" />
-    <state width="1474" height="279" key="GridCell.Tab.0.left" timestamp="1594046252323">
+    <state width="1474" height="344" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594050470884" />
+    <state width="1474" height="344" key="GridCell.Tab.0.left" timestamp="1594050470884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1474" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594046252323" />
-    <state width="1474" height="279" key="GridCell.Tab.0.right" timestamp="1594046252323">
+    <state width="1474" height="344" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594050470884" />
+    <state width="1474" height="344" key="GridCell.Tab.0.right" timestamp="1594050470884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1474" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594046252323" />
-    <state width="1474" height="344" key="GridCell.Tab.1.bottom" timestamp="1594045641024">
+    <state width="1474" height="344" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594050470884" />
+    <state width="1474" height="344" key="GridCell.Tab.1.bottom" timestamp="1594050470884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1474" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594045641024" />
-    <state width="1474" height="344" key="GridCell.Tab.1.center" timestamp="1594045641024">
+    <state width="1474" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594050470884" />
+    <state width="1474" height="344" key="GridCell.Tab.1.center" timestamp="1594050470884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1474" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594045641024" />
-    <state width="1474" height="344" key="GridCell.Tab.1.left" timestamp="1594045641024">
+    <state width="1474" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594050470884" />
+    <state width="1474" height="344" key="GridCell.Tab.1.left" timestamp="1594050470884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1474" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594045641024" />
-    <state width="1474" height="344" key="GridCell.Tab.1.right" timestamp="1594045641024">
+    <state width="1474" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594050470884" />
+    <state width="1474" height="344" key="GridCell.Tab.1.right" timestamp="1594050470884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1474" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594045641024" />
+    <state width="1474" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594050470884" />
     <state x="710" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1594041752022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="710" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594041752022" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/TestClass/UserSetting.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
