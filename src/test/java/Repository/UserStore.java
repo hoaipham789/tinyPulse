@@ -29,6 +29,15 @@ public class UserStore {
     @FindBy(xpath = "(//input[@field='email'])[1]")
     public WebElement emailField1;
 
+    @FindBy(xpath = "(//input[@placeholder='First Name'])[2]") //
+    public WebElement firstName2;
+
+    @FindBy(xpath = "(//input[@placeholder='Last Name'])[2]")
+    public WebElement lastName2;
+
+    @FindBy(xpath = "(//input[@field='email'])[2]")
+    public WebElement emailField2;
+
     @FindBy(xpath = "//div[@role='button']//span[text()='Add People']")
     public WebElement addPeopleButton;
 

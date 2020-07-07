@@ -10,7 +10,7 @@
 
     <test name="test">
         <classes>
-            <class name="TestClass.UserSetting"></class>
+            <class name="TestClass.UserSetting"/>
         </classes>
     </test>
 
