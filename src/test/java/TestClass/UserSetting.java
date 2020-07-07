@@ -37,10 +37,10 @@ public class UserSetting {
     public void addPeople() {
         user.firstName1.sendKeys("hoai1");
         user.lastName1.sendKeys("pham1");
-        user.emailField1.sendKeys("d-hoai20@mailinator.com");
+        user.emailField1.sendKeys("d-hoai22@mailinator.com");
         user.firstName2.sendKeys("hoai2");
         user.lastName2.sendKeys("pham2");
-        user.emailField2.sendKeys("d-hoai21@mailinator.com");
+        user.emailField2.sendKeys("d-hoai23@mailinator.com");
         user.addPeopleButton.click();
 
     }
