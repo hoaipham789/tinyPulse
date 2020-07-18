@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestClass.LoginCaseTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 0.275 s <<< FAILURE! - in TestClass.LoginCaseTest
+TestClass.LoginCaseTest.initConstructor  Time elapsed: 0.192 s  <<< FAILURE!
+java.lang.NullPointerException
+	at TestClass.LoginCaseTest.initConstructor(LoginCaseTest.java:16)
+

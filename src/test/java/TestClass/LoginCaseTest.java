@@ -2,16 +2,17 @@ package TestClass;
 
 import Repository.LoginStore;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class LoginCase {
+public class LoginCaseTest {
 
     WebDriver driver;
     LoginStore lg;
     @BeforeTest
     public WebDriver initConstructor() {
-        driver = Main.driver;
+        driver = Base.driver;
         driver.get("https://staging.tinyserver.info/engage/signup");
         lg = new LoginStore(driver);
         return driver;
@@ -27,6 +28,7 @@ public class LoginCase {
         lg.loginEmail.sendKeys("d-hoai@mailinator.com");
         lg.loginPasswd.sendKeys("123456?Aa");
         lg.loginButton.click();
+        Assert.assertTrue(lg.loginButton.getText().equals("a"));
 
 
     }

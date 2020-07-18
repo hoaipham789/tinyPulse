@@ -1,15 +1,15 @@
 package TestClass;
 
-import Repository.LoginStore;
+
 import Repository.UserStore;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class UserSetting {
@@ -19,7 +19,7 @@ public class UserSetting {
 
     @BeforeTest
     public WebDriver initConstructor() {
-        driver = Main.driver;
+        driver = Base.driver;
         user = new UserStore(driver);
         return driver;
     }
@@ -29,11 +29,11 @@ public class UserSetting {
     public void accessAddPeopleTab() throws InterruptedException {
         user.userIcon.click();
         Thread.sleep(3000);
-        user.addPeopleIcon.click();
+        user.addPeopleTab.click();
     }
 
 
-    @Test(priority = 1)
+//    @Test(priority = 1)
     public void addPeople() {
         user.firstName1.sendKeys("hoai1");
         user.lastName1.sendKeys("pham1");
@@ -46,7 +46,7 @@ public class UserSetting {
     }
 
 
-    @Test(priority = 2)
+//    @Test(priority = 2)
     public void verifyCongratulationPage() throws InterruptedException {
         String congratTitle = user.congratulationTitle.getText();
         Thread.sleep(3000);
@@ -57,8 +57,25 @@ public class UserSetting {
 
 
     @Test(priority = 3)
+    public void verifyPeopleAdded() {
+        user.peopleTab.click();
+        String[] compareEmail = {"d-hoai22@mailinator.com", "d-hoai23@mailinator.com"};
+        List<String> originEmail = Arrays.asList(compareEmail);
+
+        List<String> listWebEmail = new ArrayList<>();
+        for (int i = 0; i < user.emailListWeb.size(); i++) {
+            String n = user.emailListWeb.get(i).getText();
+            listWebEmail.add(n);
+        }
+        Assert.assertTrue(listWebEmail.containsAll(originEmail));
+
+
+    }
+
+
+//    @Test(priority = 4)
     public void duplicatedEmail() throws InterruptedException {
-        user.addPeopleIcon.click();
+        user.addPeopleTab.click();
         user.firstName1.sendKeys("hoai1");
         user.lastName1.sendKeys("pham1");
         user.emailField1.sendKeys("d-hoai10@mailinator.com");
@@ -72,9 +89,9 @@ public class UserSetting {
     }
 
 
-    @Test(priority = 4)
+//    @Test(priority = 5)
     public void verifyAddMore() {
-        user.addPeopleIcon.click();
+        user.addPeopleTab.click();
         driver.findElement(By.xpath("//span[text()='Add more']//parent::div")).click();
         int numberRow = driver.findElements(By.xpath("//tbody[@class='lh-copy invitation-table']/tr")).size();
         Assert.assertTrue(numberRow > 4);

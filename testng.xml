@@ -1,17 +1,17 @@
 <!--<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >-->
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Demo1">
+<suite name="Demo">
     <listeners>
         <listener class-name="TestClass.Listeners"/>
     </listeners>
-    <test name="Demo">
+    <test name="test">
         <classes>
             <class name="TestClass.Base"/>
             <class name="TestClass.LoginCaseTest"/>
         </classes>
     </test>
 
-    <test name="test">
+    <test name="User Settings">
         <classes>
             <class name="TestClass.UserSetting"/>
         </classes>

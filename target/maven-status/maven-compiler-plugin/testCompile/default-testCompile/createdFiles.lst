@@ -1,0 +1,6 @@
+Repository\UserStore.class
+TestClass\LoginCaseTest.class
+TestClass\UserSetting.class
+TestClass\Base.class
+Repository\LoginStore.class
+TestClass\Listeners.class

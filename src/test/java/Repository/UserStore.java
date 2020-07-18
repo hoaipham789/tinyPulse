@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.List;
+
 public class UserStore {
 
     WebDriver driver;
@@ -17,10 +19,13 @@ public class UserStore {
     @FindBy(xpath = "//a[@aria-label='Users and Settings']")
     public WebElement userIcon;
 
-    @FindBy(xpath = "//div[text()='Add People']//parent::div//parent::a")
-    public WebElement addPeopleIcon;
+    @FindBy(xpath = "//div[text()='Add People']//ancestor::a")
+    public WebElement addPeopleTab;
 
-    @FindBy(xpath = "(//input[@placeholder='First Name'])[1]") //
+    @FindBy(xpath = "//div[text()='People']//ancestor::a")
+    public WebElement peopleTab;
+
+    @FindBy(xpath = "(//input[@placeholder='First Name'])[1]")
     public WebElement firstName1;
 
     @FindBy(xpath = "(//input[@placeholder='Last Name'])[1]")
@@ -29,7 +34,7 @@ public class UserStore {
     @FindBy(xpath = "(//input[@field='email'])[1]")
     public WebElement emailField1;
 
-    @FindBy(xpath = "(//input[@placeholder='First Name'])[2]") //
+    @FindBy(xpath = "(//input[@placeholder='First Name'])[2]")
     public WebElement firstName2;
 
     @FindBy(xpath = "(//input[@placeholder='Last Name'])[2]")
@@ -46,5 +51,10 @@ public class UserStore {
 
     @FindBy(xpath = "//div[@class='tu mv3 fw6 f3 flex items-center red']")
     public WebElement errorEmailExist;
+
+    @FindBy(xpath = "//div[contains(@data-original-title,'.com')]/div[@class='Tooltip__tooltip___17_Ie']")
+    public List<WebElement> emailListWeb;
+
+
 
 }

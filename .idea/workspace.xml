@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2128013-5417-4bd6-8b50-44a1bba0db42" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/report/accessAddPeopleTab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/signIn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report/verifyPeopleAdded.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestClass/Listeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Repository/UserStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Repository/UserStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestClass/LoginCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClass/LoginCaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestClass/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClass/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestClass/UserSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClass/UserSetting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/TinyPulse.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Repository/UserStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Repository/UserStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestClass/LoginCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestClass/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestClass/UserSetting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestClass/UserSetting.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,11 +54,25 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.6828909" />
   </component>
   <component name="RunManager" selected="TestNG.C:/intellij/Java Project/TinyPulse/TestSuite.xml">
     <configuration name="C:/intellij/Java Project/TinyPulse/TestSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TinyPulse" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/TestSuite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/intellij/Java Project/TinyPulse/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TinyPulse" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -69,6 +101,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/intellij/Java Project/TinyPulse/TestSuite.xml" />
+        <item itemvalue="TestNG.C:/intellij/Java Project/TinyPulse/testng.xml" />
         <item itemvalue="TestNG.UserSetting.accessAddPeopleTab" />
       </list>
     </recent_temporary>
@@ -87,26 +120,38 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="380" y="100" width="1334" height="840" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1594042332290">
+    <state x="639" y="178" key="#Project_Structure" timestamp="1594881780105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="380" y="100" width="1334" height="840" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594042332290" />
-    <state width="1474" height="375" key="GridCell.Tab.0.bottom" timestamp="1594091994096">
+    <state x="639" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1594881780105" />
+    <state x="380" y="100" width="1334" height="840" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1594386644209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1474" height="375" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594091994096" />
-    <state width="1474" height="375" key="GridCell.Tab.0.center" timestamp="1594091994096">
+    <state x="380" y="100" width="1334" height="840" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594386644209" />
+    <state x="852" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1594719653874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1474" height="375" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594091994096" />
-    <state width="1474" height="375" key="GridCell.Tab.0.left" timestamp="1594091994096">
+    <state x="852" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594719653874" />
+    <state x="753" y="261" key="FileChooserDialogImpl" timestamp="1594878226046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1474" height="375" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594091994096" />
-    <state width="1474" height="375" key="GridCell.Tab.0.right" timestamp="1594091994096">
+    <state x="753" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594878226046" />
+    <state width="1474" height="325" key="GridCell.Tab.0.bottom" timestamp="1594982782822">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1474" height="375" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594091994096" />
+    <state width="1474" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594982782822" />
+    <state width="1474" height="325" key="GridCell.Tab.0.center" timestamp="1594982782822">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1474" height="325" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594982782822" />
+    <state width="1474" height="325" key="GridCell.Tab.0.left" timestamp="1594982782822">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1474" height="325" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594982782822" />
+    <state width="1474" height="325" key="GridCell.Tab.0.right" timestamp="1594982782822">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1474" height="325" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594982782822" />
     <state width="1474" height="344" key="GridCell.Tab.1.bottom" timestamp="1594050470884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -123,6 +168,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1474" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594050470884" />
+    <state x="429" y="215" key="new project wizard" timestamp="1594882772301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="429" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1594882772301" />
     <state x="710" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1594041752022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
