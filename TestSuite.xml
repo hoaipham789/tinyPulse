@@ -7,15 +7,15 @@
     <test name="Demo">
         <classes>
             <class name="TestClass.Base"/>
-            <class name="TestClass.LoginCaseTest"/>
+            <class name="TestClass.LoginCase"/>
         </classes>
     </test>
 
-    <test name="test">
-        <classes>
-            <class name="TestClass.UserSetting"/>
-        </classes>
-    </test>
+<!--    <test name="test">-->
+<!--        <classes>-->
+<!--            <class name="TestClass.UserSetting"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 
 
 </suite>

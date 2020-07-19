@@ -10,11 +10,11 @@ import java.util.List;
 public class UserStore {
 
     WebDriver driver;
-
     public UserStore(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
+
 
     @FindBy(xpath = "//a[@aria-label='Users and Settings']")
     public WebElement userIcon;

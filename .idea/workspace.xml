@@ -2,25 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2128013-5417-4bd6-8b50-44a1bba0db42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/report/accessAddPeopleTab.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/signIn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/report/verifyPeopleAdded.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestClass/Listeners.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestClass/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/accessAddPeopleTab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/signIn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/verifyPeopleAdded.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Repository/LoginStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Repository/LoginStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Repository/UserStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Repository/UserStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestClass/LoginCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClass/LoginCaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestClass/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClass/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestClass/UserSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClass/UserSetting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/TinyPulse.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestClass/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClass/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestClass/LoginCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClass/LoginCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Repository/UserStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Repository/UserStore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestClass/LoginCase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestClass/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestClass/UserSetting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestClass/UserSetting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestClass/Listeners.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestClass/Listeners.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestClass/LoginCaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestClass/LoginCaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,22 +131,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="753" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594878226046" />
-    <state width="1474" height="325" key="GridCell.Tab.0.bottom" timestamp="1594982782822">
+    <state width="1474" height="325" key="GridCell.Tab.0.bottom" timestamp="1595138836488">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1474" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594982782822" />
-    <state width="1474" height="325" key="GridCell.Tab.0.center" timestamp="1594982782822">
+    <state width="1474" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595138836488" />
+    <state width="1474" height="325" key="GridCell.Tab.0.center" timestamp="1595138836488">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1474" height="325" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594982782822" />
-    <state width="1474" height="325" key="GridCell.Tab.0.left" timestamp="1594982782822">
+    <state width="1474" height="325" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595138836488" />
+    <state width="1474" height="325" key="GridCell.Tab.0.left" timestamp="1595138836488">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1474" height="325" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594982782822" />
-    <state width="1474" height="325" key="GridCell.Tab.0.right" timestamp="1594982782822">
+    <state width="1474" height="325" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595138836488" />
+    <state width="1474" height="325" key="GridCell.Tab.0.right" timestamp="1595138836488">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1474" height="325" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594982782822" />
+    <state width="1474" height="325" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595138836488" />
     <state width="1474" height="344" key="GridCell.Tab.1.bottom" timestamp="1594050470884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

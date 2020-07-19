@@ -6,11 +6,11 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 public class Base {
@@ -40,4 +40,12 @@ public class Base {
         String locationFile = System.getProperty("user.dir")+"\\report\\" + testCaseName+".png";
         FileUtils.copyFile(source, new File(locationFile));
     }
+
+
+
+
+
+
+
+
 }

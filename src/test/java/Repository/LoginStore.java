@@ -13,6 +13,7 @@ public class LoginStore {
         PageFactory.initElements(driver, this);
     }
 
+
     @FindBy(linkText = "Login")
     public WebElement loginLink;
 
